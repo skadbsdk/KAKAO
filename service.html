@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--윈도우/안드로이드 파비콘-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- iOS 파비콘 -->
+    <link rel="apple-touch-icon-precomposed" href="favicon.png">
+    <title>카카오</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+
+    <link rel="stylesheet" href="css/footer.css">
+
+    <style>
+        .header{position:inherit;}
+        h4{font-size:18px;}
+        .sub_header{position:sticky;top:0;border-bottom:1px solid #a9a9a9;padding:20px 0;background:white;}
+        .sub_header>.row{}
+        .sub_header>.row>p{margin:5px 15px;color:#a9a9a9;font-size:18px;}
+        section.back_img{width:100%;height:400px;background:url(images/back_img01.png) center;background-size:cover;}
+        
+        section.content01{padding-bottom:50px;border-bottom:1px solid #a9a9a9; }
+        section.content01>.row>div{float:left;margin:0 15px;padding:30px 0;}
+        .content_tit{width:270px;}
+        .content_tit>h4{line-height:27px;}
+        .content_txt{width:670px;}
+        .content_txt>p{font-size:14px;color:#a9a9a9;line-height:26px;}
+        .content_btn{width:170px;}
+        .content_btn>div{float:right;width:100px;border:1px solid #111;padding:10px;}
+        .content_btn>div:hover{background:#111;color:white;cursor:pointer;}
+        .content_btn>div>p:first-child{float:left;font-size:14px;}
+        .content_btn>div>p:last-child{float:right;font-size:14px;}
+    
+        .content02{padding:30px 0;}
+        .content02>.row{}
+        .content02>.row>article{}
+        .content02>.row>.left_cont{float:left;width:270px;margin:0 15px;}
+        .left_cont>h4{width:50%;border-bottom:1px solid #111;padding-bottom:10px;}
+        .content02>.row>.right_cont{float:right;width:870px;margin:0 15px;}
+        ul.service_block{}
+        ul.service_block>li{margin-bottom:30px;}
+        ul.service_block>li>div{float:left;width:270px;margin-right:15px;}
+        ul.service_block>li>div:hover p,ul.service_block>li>div:hover h5{text-decoration:underline;}
+        ul.service_block>li>div:last-child{margin-right:0;}
+        ul.service_block>li>div>img{}
+        ul.service_block>li>div>h5{font-size:16px;margin-bottom:16px;}
+        ul.service_block>li>div>p{font-size:14px;color:#a9a9a9;line-height:20px;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class=header>
+            <div class="row clearfix">
+                <div class="main_logo">
+                    <h1>
+                        <a href="index.html" class="roboto">
+                            kakao
+                        </a>
+                    </h1>
+                </div>
+                <div class="nav">
+                    <nav>
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">카카오</a>
+                                <div></div>
+                            </li>
+                            <li>
+                                <a href="#">투자정보</a>
+                                <div></div>
+                            </li>
+                            <li>
+                                <a href="#">서비스</a>
+                                <div></div>
+                            </li>
+                            <li>
+                                <a href="#">쇼설임팩트</a>
+                                <div></div>
+                            </li>
+                            <li>
+                                <a href="#">고객지원</a>
+                                <div></div>
+                            </li>
+                            <li>
+                                <a href="#">인재영입</a>
+                                <div></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="lang">
+                    <ul class="clearfix">
+                        <li><a href="#" class="roboto">KOR</a></li>
+                        <li><a href="#" class="roboto">ENG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="sub_header">
+            <div class="row">
+                <p>홈 > 서비스</p>
+            </div>
+        </section>
+        <section class="back_img"></section>
+        <section class="content01">
+            <div class="row clearfix">
+                <div class="content_tit">
+                    <h4>사람과 세상을 향한 모든 연결의<br>시작, 카카오톡</h4>
+                </div>
+                <div class="content_txt">
+                    <p>가족과 친구들에게 안부를 묻고 이야기를 나눠 보세요. 생활의 편리를 돕는 다양한<br>기능도 준비되어 있습니다. 세상을 향해 열린 문을 ‘톡’하고 두드려 보세요.</p>
+                </div>
+                <div class="content_btn clearfix">
+                    <div class="clearfix">
+                        <p>자세히</p>
+                        <p>></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content02">
+            <div class="row clearfix">
+                <article class="left_cont">
+                    <h4>전체</h4>
+                </article>
+                <article class="right_cont">
+                    <ul class="service_block">
+                        <li class="clearfix">
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목1</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목2</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목3</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목4</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목5</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목6</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목7</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목8</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                            <div>
+                                <img src="" alt="">
+                                <h5>제목9</h5>
+                                <p>내용 내용 내용<br>내용</p>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <footer class="footer">
+            <ul class="row clearfix">
+                <li class="footer_left">
+                    <div class="clearfix">
+                        <span><a href="#">이용약관</a></span>
+                        <span><a href="#">위치기반서비스이용약관</a></span>
+                        <span><a href="#">개인정보처리방침</a></span>
+                        <span><a href="#">운영정책</a></span>
+                        <span><a href="#">청소년보호정책</a></span>
+                        <span><a href="#">권리침해신고안내</a></span>
+                        <span><a href="#">공지사항</a></span>
+                        <span><a href="#">사이버윤리실</a></span>
+                    </div>
+                    <div>
+                        <address>
+                            Copyright © Kakao Corp. All rights reserved.
+                        </address>
+                    </div>
+                </li>
+                <li class="footer_right clearfix">
+                    <p>관련사이트</p>
+                    <p>+</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
